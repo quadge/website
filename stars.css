@@ -1,0 +1,20 @@
+#stars {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none; /* prevents stars blocking clicks */
+  z-index: -1; /* push behind everything */
+  pointer-events: none;
+}
+.ascii-star {
+  position: absolute;
+  color: mediumpurple;
+  opacity: 0;
+  animation: twinkle 5s infinite ease-in-out;
+}
+@keyframes twinkle {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 0.8; }
+}

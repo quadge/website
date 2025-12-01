@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- THIS WEBSITE IS A MESS CREATED THROUGH TRIAL AND ERROR -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="quadge">
+    <title>quadge</title>
+    <link rel="stylesheet" href="/styles.css">
+
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+
+<link rel="stylesheet" href="/stars.css">
+<script src="/stars.js" defer></script>
+
+<body>
+    <div class="wrapper">
+        <header class="header">quadge</header>
+        <div class="row-1">
+            <div class="left-1">
+                <div class="left-1-upper">
+                    <img src="/images/chonkfather.jpg" style="height: 65px; object-fit: cover; margin-left: 5px;">
+                        <div style="margin-left: 5px;">
+                            <p style="font-size: 12px; margin-top: 0px; margin-bottom: 0px;">ben</p>
+                            <p style="font-size: 12px; margin-top: 0px;">gato gordo</p>
+                            <a href="https://www.imood.com/users/quadge"><img src="https://moods.imood.com/display/uname-quadge/fg-FFFFFF/bg-000000/imood.gif"></a>
+                        </div>
+                    </div>
+
+                <div class="left-1-lower">
+                    <pre style="margin: 5px; font-size: 14px;">
+SITEMAP
+<a href="/index.html">home</a> <- you are here
+  <a href="/about.html">about</a>
+  <!-- <a href="/media.html">media</a>
+    <a href="/media/music.html">music</a>
+      <a href="/media/music/music-i-like.html">music i like</a> -->
+                    </pre>
+                </div>
+            </div>
+            <div class="middle-1">
+                <div style="margin-top: 10px; margin-left: 10px">
+                    <b style="font-size: 24px;">
+                        hello
+                    </b>
+                    <hr style="border: none; border-bottom: dashed 1px #8764B8; margin-left: 0px; width: 400px;">
+                    <div style="width: 400px;">
+                        <p>UNDER CONSTRUCTION
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="right-1">
+                <div class="right-1-upper">
+                    <p style="margin-left: 5px; margin-top: 5px; margin-right: 5px;">updates
+                    <br>
+                    jul 21 2025 - procrastinated, adding stuff for real this time
+                    <br>
+                    jun 13 2025 - forgot about my website, adding a lot of things
+                    <br>
+                    nov 24 2024 - added stuff to technology page
+                    <br>
+                    oct 14 2024 - added technology page
+                    <br>
+                    oct 3 2024 - minor organization stuff
+                    <br>
+                    oct 1 2024 - incredible website redesign
+                    <br>
+                    aug 18 2024 - website creation
+                    </p>
+                </div>
+                <div class="right-1-lower">
+                    <p style="margin-left: 5px; margin-top: 5px; margin-bottom: 9px;">
+                        QOTW 8/23/25:<br>I can't think of one<br> <br>
+                        QOTW 8/5/25:<br>Follow the golden rule<br> <br>
+                        QOTW 7/21/25:<br>One should not interfere in the battles of dragons and tigers<br> <br>
+                        QOTW 6/15/25:<br>Every battle is won before it is fought
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row-2">
+            <div class="left-2">
+            </div>
+            <div class="middle-2">
+            </div>
+            <div class="right-2">
+            </div>
+        </div>
+    </div>
+</body>
+
+<div id="footer"></div>
+<script>
+    fetch('/footer.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('footer').innerHTML = data;
+        });
+</script>
+</html>

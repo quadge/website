@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quadge music</title>
+    <link rel="stylesheet" href="/styles.css">
+
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+
+<body style="text-align: center;">
+    <h1>music</h1>
+    <p><a href='https://open.spotify.com/user/quantum_doge?si=5b449d7594c24d40' target="_blank">spotify profile</a></p>
+    <p>songs I like are in my songs playlist, sort it by new</p>
+    <a href="/media/music/music-i-like.html">music I like</a>
+    <br><br>
+
+</body>
+
+<div id="footer"></div>
+<script>
+    fetch('/footer.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('footer').innerHTML = data;
+        });
+</script>
+
+</html>

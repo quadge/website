@@ -1,0 +1,124 @@
+/* general */
+body {
+    background-color: black;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* links */
+a { 
+    color: #8764B8;
+    text-decoration: none;
+}
+
+/* footer */
+footer {
+    text-align: center;
+}
+
+/* wrapper */
+.wrapper {
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+/* header */
+.header {
+    border: 1px solid #8764B8;
+    border-radius: 5px 5px 0px 0px; 
+    padding: 10px;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+/* first row */
+.row-1 {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+/* first row left */
+.left-1 {
+    align-items: center;
+}
+
+/* first row left upper */
+.left-1-upper {
+    border: 1px solid #8764B8;
+    height: 75px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+/* first row left lower */
+.left-1-lower {
+    border: 1px solid #8764B8;
+    height: 218px;
+    
+}
+
+/* first row middle */
+.middle-1 {
+    border: 1px solid #8764B8;
+    height: 300px;
+    background-image: url("/images/main background.png");
+}
+
+/* first row right */
+.right-1 {
+    align-items: center;
+}
+
+/* first row right upper */
+.right-1-upper {
+    border: 1px solid #8764B8;
+    height: 218px;
+    margin-bottom: 5px;
+    overflow-y: auto;
+}
+
+/* first row right lower */
+.right-1-lower {
+    border: 1px solid #8764B8;
+    height: 75px;
+    overflow-y: auto;
+}
+
+/* second row */
+.row-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+/* second row left */
+.left-2 {
+    border: 1px solid #8764B8;
+    height: 150px;
+    border-radius: 0px 0px 0px 5px;
+    background-image: url("/images/chill dolphin.jpg");
+    background-size: 100% 100%;
+}
+
+/* second row middle */
+.middle-2 {
+    border: 1px solid #8764B8;
+    height: 150px;
+}
+
+/* second row right */
+.right-2 {
+    border: 1px solid #8764B8;
+    height: 150px;
+    border-radius: 0px 0px 5px 0px;
+    background-image: url("/images/cool fish.jpg");
+    background-size: 100% 100%;
+}
